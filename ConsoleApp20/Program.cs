@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //
             var r1 = ListGenerators.ProductList.Where(p => p.UnitsInStock == 0).First();
             var r2 = ListGenerators.ProductList.Where(p => p.UnitPrice > 1000).FirstOrDefault();//fristordefault if got match return null
             int[] Arr1 = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
